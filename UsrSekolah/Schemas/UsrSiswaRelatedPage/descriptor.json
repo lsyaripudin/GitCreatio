@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "4dc0997e-e3e4-4ea0-851d-08055f0ad681",
+    "Name": "UsrSiswaRelatedPage",
+    "ModifiedOnUtc": "\/Date(1762257360000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Siswa (Page settings)",
+    "DependsOn": []
+  }
+}

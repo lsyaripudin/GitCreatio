@@ -1,0 +1,8 @@
+= MetaData.Schema.UId "990b6ff2-f9ff-4395-b506-00d9f521d174"
+= MetaData.Schema.A2 "UsrSiswa_FormPage"
+= MetaData.Schema.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
+~ MetaData.Schema.B2 ["adc08f4a-ba1d-4efb-b191-7402bbc2532a","4cb82019-3873-4666-9b6c-f6924a8e7848","5f907cfd-4668-420d-9483-cacfc48dff1d","a8924c84-22eb-4c7c-a92e-4e2d56dc6c09"]
+= MetaData.Schema.B6 "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2"
+= MetaData.Schema.HD1 "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9"
+- MetaData.Schema.B7
++ MetaData.Schema.B7 false

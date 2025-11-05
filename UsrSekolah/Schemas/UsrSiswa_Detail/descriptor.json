@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "5d05375c-2050-4b60-9c84-0bbd3694680b",
+    "Name": "UsrSiswa_Detail",
+    "ModifiedOnUtc": "\/Date(1762257360000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Siswa detail",
+    "DependsOn": []
+  }
+}

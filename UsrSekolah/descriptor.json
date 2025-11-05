@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "5b7f5823-fa53-44bf-bb8f-4e7c7be89ae8",
+    "Name": "UsrSekolah",
+    "Type": 1,
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/UsrSekolah.csproj",
+    "DependsOn": []
+  }
+}

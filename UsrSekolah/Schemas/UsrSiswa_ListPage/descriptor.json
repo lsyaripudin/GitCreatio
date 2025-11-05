@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "34efe46f-e137-4b50-a679-67ef14bf15e6",
+    "Name": "UsrSiswa_ListPage",
+    "ModifiedOnUtc": "\/Date(1762257360000)\/",
+    "Parent": {
+      "UId": "3f1f3f38-a0a4-4549-b895-249fb08f554a",
+      "Name": "ListFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Siswa list page",
+    "DependsOn": []
+  }
+}

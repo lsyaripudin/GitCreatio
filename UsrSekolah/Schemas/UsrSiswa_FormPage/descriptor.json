@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "990b6ff2-f9ff-4395-b506-00d9f521d174",
+    "Name": "UsrSiswa_FormPage",
+    "ModifiedOnUtc": "\/Date(1762257360000)\/",
+    "Parent": {
+      "UId": "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9",
+      "Name": "PageWithTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Siswa form page",
+    "DependsOn": []
+  }
+}
