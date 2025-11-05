@@ -1,0 +1,159 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Välj {0}",
+        "Selected": "Valda:",
+        "SelectButton": "Välj",
+        "CancelButton": "Avbryt",
+        "Blankslate": "Det finns inga poster för detta objekt"
+    },
+    "SearchInput": {
+        "Placeholder": "Sök",
+        "Settings": {
+            "Cancel": "Avbryt",
+            "Apply": "Tillämpa",
+            "SearchColumnTemplate": "Sök med kolumn \"{0}\"",
+            "StartsWith": "Börjar med",
+            "Contains": "Innehåller",
+            "Equals": "Lika"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "Lägg till",
+        "BlankslateWithFilters": "Det finns inga poster som matchar aktuella sökkriterier. Rensa eller ändra sökparametrar"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Acceptera chatt",
+            "AlreadyAssignedChat": "Chatten tilldelades en annan agent",
+            "NewMessages": "Nya meddelanden",
+            "ChatIsCompleted": "Chatten slutfördes {datePart} vid {timePart}",
+            "AcademyLink": "https://academy.creatio.com/",
+            "LastChatMessageAuthorCaption": "Du:",
+            "DraftMessageCaption": "Utkast:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Chattkanaler är inte konfigurerade",
+                    "textStart": "Kontakta din systemadministratör och begär att du skapar en kanal. Läs mer om att arbeta med chattar i ",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Chattkanaler är inte konfigurerade",
+                    "textStart": "Vänligen ",
+                    "splitTextLink": {
+                        "href": "/Klientapp/#/ChatSettings",
+                        "displayText": "lägg till"
+                    },
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    },
+                    "textEnd": " en ny kanal. Läs mer om att arbeta med chattar i "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "Nya chattar distribueras inte till inaktiva agenter",
+                    "textStart": "Vänligen ändra din status till \"Aktiv\". Läs mer om att arbeta med chattar i ",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "Det finns inga köade chattar",
+                    "textStart": "Läs mer om att arbeta med chattar i ",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "Nya chattar distribueras inte till inaktiva agenter",
+                    "textStart": "Vänligen ändra din status till \"Aktiv\". Läs mer om att arbeta med chattar i ",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "Det finns inga köade chattar",
+                    "textStart": "Läs mer om att arbeta med chattar i akademin ",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "Det verkar som om du inte har chattar på jobbet. Kontrollera listan över nya chattar"
+                }
+            },
+            "Actions": {
+                "Complete": "Slutför chatten",
+                "ProcessesDivider": "Processer",
+                "EmptyProcessesList": "Lägg till en affärsprocess på detaljerna \"Chattåtgärder\"",
+                "SearchFacebook": "Sök på Facebook",
+                "ContactDuplicates": {
+                    "Show": "Visa dubbla kontakter",
+                    "NotFound": "Dubbletter av kontakter hittades inte",
+                    "Find": "Hitta dubbla kontakter"
+                },
+                "Back": "Tillbaka",
+                "Transfer": "Överför chatt"
+            },
+            "ChatListTitle": "Aktiva chattar",
+            "Tips": {
+                "BackToChats": "Tillbaka till listan"
+            },
+            "Bots": {
+                "Name": "Bot"
+            },
+            "NewMessagePlaceholder": "Meddelande",
+            "AttachFile": "Fil",
+            "OversizeFiles": "25 MB maximal filstorlek överskriden i följande fil(er)\n{0}",
+            "NewChatsTitle": "Nya chattar"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Chatt startad: {0} av",
+                "EndDate": "Chatt slutförd: {0} av"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Pre-chat summary",
+            "Toggle": {
+                "Opened": "Dölj",
+                "Closed": "Visa mer"
+            },
+            "Fields": {
+                "Source": "Källa"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "Hittade {0} liknande kontakter",
+            "DuplicatesNotFound": "Inga liknande kontakter hittades",
+            "FindDuplication": "Hitta liknande kontakter"
+        },
+        "Transfer": {
+            "ToOperator": "Agentkommando",
+            "ToQueue": "Kö",
+            "TransferWindowCaption": "Överför till",
+            "OperatorStatusTips": {
+                "Active": "Aktiv",
+                "Inactive": "Inaktiv",
+                "ChatsExceeded": "Chattar överskred"
+            },
+            "NoAvailableAgents": "Det finns inga tillgängliga agenter att överföra",
+            "NoAvailableQueues": "Det finns inga tillgängliga köer att överföra"
+        }
+    },
+    "InfoDialog": {
+        "OK": "Ok"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Mall förslag",
+        "SuggestionHint": "Försök att skriva ett ord för att börja söka",
+        "QuickSearchHint": "Ange // för att söka efter en mall",
+        "TemplateSearchCaption": "Svara mallar"
+    },
+    "NotificationsDisabled": {
+        "textStart": "Webbläsaraviseringar är inaktiverade. Aktivera aviseringar för att ta emot nya aviseringar. Läs mer på ",
+        "splitTextLink": {
+            "displayText": "Akademi"
+        }
+    }
+}

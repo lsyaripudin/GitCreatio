@@ -1,0 +1,159 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Selectaţi: {0}",
+        "Selected": "Selectat:",
+        "SelectButton": "Selectare",
+        "CancelButton": "Anulează",
+        "Blankslate": "Nu există înregistrări pentru acest obiect"
+    },
+    "SearchInput": {
+        "Placeholder": "Caută",
+        "Settings": {
+            "Cancel": "Anulează",
+            "Apply": "Aplică",
+            "SearchColumnTemplate": "Căutare după coloana \"{0}\"",
+            "StartsWith": "Începe cu",
+            "Contains": "Conţine",
+            "Equals": "Egal"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "Adăugare",
+        "BlankslateWithFilters": "Nu există înregistrări care să se potrivească criteriilor actuale de căutare. Ștergeți sau modificați parametrii de căutare"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Acceptă conversația",
+            "AlreadyAssignedChat": "Chat-ul a fost atribuit unui alt agent",
+            "NewMessages": "Mesaje noi",
+            "ChatIsCompleted": "Chat completat {datePart} la {timePart}",
+            "AcademyLink": "https://academy.creatio.com/",
+            "LastChatMessageAuthorCaption": "Dumneavoastră:",
+            "DraftMessageCaption": "Schiță:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Canalele de chat nu sunt configurate",
+                    "textStart": "Vă rugăm să contactați administratorul sistemului și să solicitați să configurați un canal. Aflați mai multe despre lucrul cu conversațiile în ",
+                    "academyLink": {
+                        "displayText": "Academia"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Canalele de chat nu sunt configurate",
+                    "textStart": "Te rog ",
+                    "splitTextLink": {
+                        "href": "/ClientApp/#/Setări chat",
+                        "displayText": "adaugă"
+                    },
+                    "academyLink": {
+                        "displayText": "Academia"
+                    },
+                    "textEnd": " un canal nou. Află mai multe despre lucrul cu conversațiile în "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "Discuțiile noi nu sunt distribuite agenților inactivi",
+                    "textStart": "Vă rugăm să vă schimbați starea în \"Active\". Aflați mai multe despre lucrul cu conversațiile în ",
+                    "academyLink": {
+                        "displayText": "Academia"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "Nu există chat-uri în așteptare",
+                    "textStart": "Află mai multe despre lucrul cu conversațiile din ",
+                    "academyLink": {
+                        "displayText": "Academia"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "Discuțiile noi nu sunt distribuite agenților inactivi",
+                    "textStart": "Vă rugăm să vă schimbați starea în \"Active\". Aflați mai multe despre lucrul cu conversațiile în ",
+                    "academyLink": {
+                        "displayText": "Academia"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "Nu există chat-uri în așteptare",
+                    "textStart": "Află mai multe despre lucrul cu chaturile pe Academia ",
+                    "academyLink": {
+                        "displayText": "Academia"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "Se pare că nu ai conversații la serviciu. Verifică lista de noi conversații"
+                }
+            },
+            "Actions": {
+                "Complete": "Completează conversația",
+                "ProcessesDivider": "Procese",
+                "EmptyProcessesList": "Adaugă un proces de afaceri pe detaliile \"Acțiuni în chat\"",
+                "SearchFacebook": "Caută pe Facebook",
+                "ContactDuplicates": {
+                    "Show": "Arată contacte duplicate",
+                    "NotFound": "Duplicatul contactelor nu a fost găsit",
+                    "Find": "Găsește contacte duplicate"
+                },
+                "Back": "Înapoi",
+                "Transfer": "Transferă conversație"
+            },
+            "ChatListTitle": "Conversații active",
+            "Tips": {
+                "BackToChats": "Înapoi la listă"
+            },
+            "Bots": {
+                "Name": "Bot"
+            },
+            "NewMessagePlaceholder": "Mesaj",
+            "AttachFile": "Fişier",
+            "OversizeFiles": "25 MB maximum dimensiune fișier limită depășită în următoarele fișier(e)\n{0}",
+            "NewChatsTitle": "Conversații noi"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Chat început: {0} de",
+                "EndDate": "Chat finalizat: {0} de"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Pre-chat summary",
+            "Toggle": {
+                "Opened": "Ascunde",
+                "Closed": "Arată mai mult"
+            },
+            "Fields": {
+                "Source": "Sursa"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "S-au găsit {0} contacte similare",
+            "DuplicatesNotFound": "Nu au fost găsite contacte similare",
+            "FindDuplication": "Găsește contacte similare"
+        },
+        "Transfer": {
+            "ToOperator": "Agent",
+            "ToQueue": "Coadă",
+            "TransferWindowCaption": "Transfer la",
+            "OperatorStatusTips": {
+                "Active": "Activ",
+                "Inactive": "Inactiv",
+                "ChatsExceeded": "Conversații depășite"
+            },
+            "NoAvailableAgents": "Nu există nici un agent disponibil pentru transfer",
+            "NoAvailableQueues": "Nu există cozi disponibile pentru transfer"
+        }
+    },
+    "InfoDialog": {
+        "OK": "Ok"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Sugestii de șablon",
+        "SuggestionHint": "Încercați să tastați un cuvânt pentru a începe căutarea",
+        "QuickSearchHint": "Introduceți // pentru a căuta un șablon",
+        "TemplateSearchCaption": "Șabloane de răspuns"
+    },
+    "NotificationsDisabled": {
+        "textStart": "Notificările browser-ului sunt dezactivate. Activați notificările pentru a primi alerte de mesaje noi. Citiți mai multe pe ",
+        "splitTextLink": {
+            "displayText": "Academia"
+        }
+    }
+}

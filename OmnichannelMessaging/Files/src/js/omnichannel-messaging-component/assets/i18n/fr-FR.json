@@ -1,0 +1,159 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Sélectionner: {0}",
+        "Selected": "Sélectionné:",
+        "SelectButton": "Sélectionner",
+        "CancelButton": "Abandonner",
+        "Blankslate": "Il n'y a aucun enregistrement pour cet objet"
+    },
+    "SearchInput": {
+        "Placeholder": "Chercher",
+        "Settings": {
+            "Cancel": "Abandonner",
+            "Apply": "Appliquer",
+            "SearchColumnTemplate": "Recherche par colonne \"{0}\"",
+            "StartsWith": "Commence par",
+            "Contains": "Contient",
+            "Equals": "Egal"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "Ajouter",
+        "BlankslateWithFilters": "Il n'y a aucun enregistrement correspondant aux critères de recherche en cours. Effacer ou modifier les paramètres de recherche"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Accepter le chat",
+            "AlreadyAssignedChat": "Le chat a été assigné à un autre agent",
+            "NewMessages": "Nouveaux messages",
+            "ChatIsCompleted": "Chat terminé {datePart} à {timePart}",
+            "AcademyLink": "https://academy.creatio.com/",
+            "LastChatMessageAuthorCaption": "Vous:",
+            "DraftMessageCaption": "Brouillon :",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Les canaux de discussion ne sont pas configurés",
+                    "textStart": "Veuillez contacter votre administrateur système et demander à configurer un canal. En savoir plus sur le travail avec les chats dans le ",
+                    "academyLink": {
+                        "displayText": "Académie"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Les canaux de discussion ne sont pas configurés",
+                    "textStart": "S'il vous plaît ",
+                    "splitTextLink": {
+                        "href": "/ClientApp/#/Paramètres de chat",
+                        "displayText": "Ajouter"
+                    },
+                    "academyLink": {
+                        "displayText": "Académie"
+                    },
+                    "textEnd": " un nouveau canal. En savoir plus sur la façon de travailler avec les chats dans le "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "Les nouveaux chats ne sont pas distribués aux agents inactifs",
+                    "textStart": "Veuillez changer votre statut à \"Actif\". En savoir plus sur comment travailler avec les chats dans le ",
+                    "academyLink": {
+                        "displayText": "Académie"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "Il n'y a pas de chats en attente",
+                    "textStart": "En savoir plus sur le travail avec les chats dans le ",
+                    "academyLink": {
+                        "displayText": "Académie"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "Les nouveaux chats ne sont pas distribués aux agents inactifs",
+                    "textStart": "Veuillez changer votre statut à \"Actif\". En savoir plus sur comment travailler avec les chats dans le ",
+                    "academyLink": {
+                        "displayText": "Académie"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "Il n'y a pas de chats en attente",
+                    "textStart": "En savoir plus sur le travail avec les chats à l'Académie ",
+                    "academyLink": {
+                        "displayText": "Académie"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "Il semble que vous n'ayez pas de chats au travail. Consultez la liste des nouvelles chats"
+                }
+            },
+            "Actions": {
+                "Complete": "Chat complet",
+                "ProcessesDivider": "Processus",
+                "EmptyProcessesList": "Ajouter un processus métier sur le détail \"Actions de chat\"",
+                "SearchFacebook": "Rechercher sur Facebook",
+                "ContactDuplicates": {
+                    "Show": "Afficher les contacts en double",
+                    "NotFound": "Contacts dupliqués introuvables",
+                    "Find": "Trouver des contacts en double"
+                },
+                "Back": "Précédent",
+                "Transfer": "Transférer le chat"
+            },
+            "ChatListTitle": "Chats actifs",
+            "Tips": {
+                "BackToChats": "Retour à la liste"
+            },
+            "Bots": {
+                "Name": "Bot"
+            },
+            "NewMessagePlaceholder": "Message",
+            "AttachFile": "Fichier",
+            "OversizeFiles": "Limite de taille maximale de fichier dépassée de 25 Mo dans le(s) fichier(s) suivant(s)\n{0}",
+            "NewChatsTitle": "Nouvelles conversations"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Chat démarré: {0} par",
+                "EndDate": "Chat terminé: {0} par"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Pre-chat summary",
+            "Toggle": {
+                "Opened": "Cacher",
+                "Closed": "Afficher plus"
+            },
+            "Fields": {
+                "Source": "Source"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "{0} contacts similaires trouvés",
+            "DuplicatesNotFound": "Aucun contact similaire trouvé",
+            "FindDuplication": "Trouver des contacts similaires"
+        },
+        "Transfer": {
+            "ToOperator": "Agent",
+            "ToQueue": "File d'attente",
+            "TransferWindowCaption": "Transférer à",
+            "OperatorStatusTips": {
+                "Active": "Actif",
+                "Inactive": "Inactif",
+                "ChatsExceeded": "Chats dépassés"
+            },
+            "NoAvailableAgents": "Il n'y a aucun agent disponible à transférer",
+            "NoAvailableQueues": "Il n'y a pas de file d'attente disponible à transférer"
+        }
+    },
+    "InfoDialog": {
+        "OK": "Ok"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Suggestions de modèle",
+        "SuggestionHint": "Essaie de taper un mot pour commencer la recherche",
+        "QuickSearchHint": "Entrez // pour rechercher un modèle",
+        "TemplateSearchCaption": "Modèles de réponse"
+    },
+    "NotificationsDisabled": {
+        "textStart": "Les notifications du navigateur sont désactivées. Activez les notifications pour recevoir les nouvelles alertes. En savoir plus sur ",
+        "splitTextLink": {
+            "displayText": "Académie"
+        }
+    }
+}

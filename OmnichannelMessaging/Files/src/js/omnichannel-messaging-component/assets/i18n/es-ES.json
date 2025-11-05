@@ -1,0 +1,159 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Seleccionar: {0}",
+        "Selected": "Seleccionado:",
+        "SelectButton": "Seleccionar",
+        "CancelButton": "Cancelar",
+        "Blankslate": "No hay registros para este objeto"
+    },
+    "SearchInput": {
+        "Placeholder": "Buscar",
+        "Settings": {
+            "Cancel": "Cancelar",
+            "Apply": "Aplicar",
+            "SearchColumnTemplate": "Buscar por columna \"{0}\"",
+            "StartsWith": "Comienza por",
+            "Contains": "Contiene",
+            "Equals": "Iguales"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "Añadir",
+        "BlankslateWithFilters": "No hay registros que coincidan con los criterios de búsqueda actuales. Limpiar o modificar los parámetros de búsqueda"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Aceptar chat",
+            "AlreadyAssignedChat": "El chat fue asignado a otro agente",
+            "NewMessages": "Nuevos mensajes",
+            "ChatIsCompleted": "Chat completado {datePart} a las {timePart}",
+            "AcademyLink": "https://academy.creatio.com/",
+            "LastChatMessageAuthorCaption": "Tú:",
+            "DraftMessageCaption": "Borrador:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Los canales de chat no están configurados",
+                    "textStart": "Póngase en contacto con el administrador del sistema y solicite configurar un canal. Aprenda más sobre cómo trabajar con los chats en el ",
+                    "academyLink": {
+                        "displayText": "Academia"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Los canales de chat no están configurados",
+                    "textStart": "Por favor ",
+                    "splitTextLink": {
+                        "href": "/ClientApp/#/ChatSettings",
+                        "displayText": "añadir"
+                    },
+                    "academyLink": {
+                        "displayText": "Academia"
+                    },
+                    "textEnd": " un nuevo canal. Aprende más sobre cómo trabajar con chats en el "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "Los nuevos chats no se distribuyen a los agentes inactivos",
+                    "textStart": "Por favor, cambia tu estado a \"Activo\". Aprende más sobre cómo trabajar con chats en el ",
+                    "academyLink": {
+                        "displayText": "Academia"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "No hay chats en cola",
+                    "textStart": "Aprende más sobre trabajar con chats en el ",
+                    "academyLink": {
+                        "displayText": "Academia"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "Los nuevos chats no se distribuyen a los agentes inactivos",
+                    "textStart": "Por favor, cambia tu estado a \"Activo\". Aprende más sobre cómo trabajar con chats en el ",
+                    "academyLink": {
+                        "displayText": "Academia"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "No hay chats en cola",
+                    "textStart": "Aprende más sobre trabajar con chats en la Academia ",
+                    "academyLink": {
+                        "displayText": "Academia"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "Parece que no tienes chats en el trabajo. Revisa la lista de nuevos chats"
+                }
+            },
+            "Actions": {
+                "Complete": "Completar chat",
+                "ProcessesDivider": "Procesos",
+                "EmptyProcessesList": "Añadir un proceso de negocio en el detalle de \"Acciones del chat\"",
+                "SearchFacebook": "Buscar en Facebook",
+                "ContactDuplicates": {
+                    "Show": "Mostrar contactos duplicados",
+                    "NotFound": "Contactos duplicados no encontrados",
+                    "Find": "Encontrar contactos duplicados"
+                },
+                "Back": "Atrás",
+                "Transfer": "Transferir chat"
+            },
+            "ChatListTitle": "Chats activos",
+            "Tips": {
+                "BackToChats": "Volver a la lista"
+            },
+            "Bots": {
+                "Name": "Bot"
+            },
+            "NewMessagePlaceholder": "Mensaje",
+            "AttachFile": "Fichero",
+            "OversizeFiles": "25 MB maximum file size limit exceeded in the following file(s)\n{0}",
+            "NewChatsTitle": "Nuevos chats"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Chat iniciado: {0} por",
+                "EndDate": "Chat completado: {0} por"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Pre-chat summary",
+            "Toggle": {
+                "Opened": "Ocultar",
+                "Closed": "Mostrar más"
+            },
+            "Fields": {
+                "Source": "Fuente"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "Se encontraron {0} contactos similares",
+            "DuplicatesNotFound": "No hay contactos similares",
+            "FindDuplication": "Encontrar contactos similares"
+        },
+        "Transfer": {
+            "ToOperator": "Agente",
+            "ToQueue": "Cola",
+            "TransferWindowCaption": "Transferir a",
+            "OperatorStatusTips": {
+                "Active": "Activo",
+                "Inactive": "Inactivo",
+                "ChatsExceeded": "Chats excedidos"
+            },
+            "NoAvailableAgents": "No hay agentes disponibles para transferir",
+            "NoAvailableQueues": "No hay colas disponibles para transferir"
+        }
+    },
+    "InfoDialog": {
+        "OK": "Ok"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Sugerencias de plantillas",
+        "SuggestionHint": "Intenta escribir una palabra para empezar a buscar",
+        "QuickSearchHint": "Introduzca // para buscar una plantilla",
+        "TemplateSearchCaption": "Plantillas de respuesta"
+    },
+    "NotificationsDisabled": {
+        "textStart": "Las notificaciones del navegador están deshabilitadas. Activar notificaciones para recibir alertas de mensajes nuevos. Leer más sobre ",
+        "splitTextLink": {
+            "displayText": "Academia"
+        }
+    }
+}

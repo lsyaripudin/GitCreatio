@@ -1,0 +1,159 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Selecionar: {0}",
+        "Selected": "Selecionado:",
+        "SelectButton": "Selecionar",
+        "CancelButton": "cancelar",
+        "Blankslate": "Não há registros para este objeto"
+    },
+    "SearchInput": {
+        "Placeholder": "Pesquisa",
+        "Settings": {
+            "Cancel": "cancelar",
+            "Apply": "Aplicar",
+            "SearchColumnTemplate": "Pesquisar por coluna \"{0}\"",
+            "StartsWith": "Começa com",
+            "Contains": "contém",
+            "Equals": "iguais"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "Adicionar",
+        "BlankslateWithFilters": "Não há registros correspondentes aos critérios de pesquisa atual. Limpe ou modifique os parâmetros de pesquisa."
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Aceitar chat",
+            "AlreadyAssignedChat": "O chat foi atribuído a outro agente",
+            "NewMessages": "Novas mensagens",
+            "ChatIsCompleted": "Chat concluído {datePart} em {timePart}",
+            "AcademyLink": "https://academy.creatio.com/",
+            "LastChatMessageAuthorCaption": "Você:",
+            "DraftMessageCaption": "Rascunho",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Canais de bate-papo não estão configurados",
+                    "textStart": "Por favor, contate o administrador do sistema e solicite para configurar um canal. Saiba mais sobre como trabalhar com bate-papos no ",
+                    "academyLink": {
+                        "displayText": "Academia"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Canais de bate-papo não estão configurados",
+                    "textStart": "Por favor ",
+                    "splitTextLink": {
+                        "href": "/Aplicação/Cliente/#/Configurações de bate-papo",
+                        "displayText": "adicionar"
+                    },
+                    "academyLink": {
+                        "displayText": "Academia"
+                    },
+                    "textEnd": " um novo canal. Saiba mais sobre como trabalhar com bate-papos no "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "Novos bate-papos não são distribuídos por agentes inativos",
+                    "textStart": "Por favor, altere seu status para \"Ativo\". Saiba mais sobre como trabalhar com bate-papos no ",
+                    "academyLink": {
+                        "displayText": "Academia"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "Não há nenhuma conversa na fila",
+                    "textStart": "Aprenda mais sobre como trabalhar com bate-papos no ",
+                    "academyLink": {
+                        "displayText": "Academia"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "Novos bate-papos não são distribuídos por agentes inativos",
+                    "textStart": "Por favor, altere seu status para \"Ativo\". Saiba mais sobre como trabalhar com bate-papos no ",
+                    "academyLink": {
+                        "displayText": "Academia"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "Não há nenhuma conversa na fila",
+                    "textStart": "Saiba mais sobre como trabalhar com bate-papos na Academia ",
+                    "academyLink": {
+                        "displayText": "Academia"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "Parece que você não tem bate-papos no trabalho. Verifique a lista de novas conversas"
+                }
+            },
+            "Actions": {
+                "Complete": "Concluir bate-papo",
+                "ProcessesDivider": "processos",
+                "EmptyProcessesList": "Adicione um processo de negócios nos detalhes de \"Ações de Bate-Papo\"",
+                "SearchFacebook": "Buscar no Facebook",
+                "ContactDuplicates": {
+                    "Show": "Mostrar contatos duplicados",
+                    "NotFound": "Não foram encontrados contatos duplicados",
+                    "Find": "Encontrar contatos duplicados"
+                },
+                "Back": "Anterior",
+                "Transfer": "Transferir chat"
+            },
+            "ChatListTitle": "Conversas ativas",
+            "Tips": {
+                "BackToChats": "Voltar para a lista"
+            },
+            "Bots": {
+                "Name": "Bot"
+            },
+            "NewMessagePlaceholder": "mensagem",
+            "AttachFile": "Arquivo",
+            "OversizeFiles": "Limite máximo de tamanho de arquivo de 25 MB excedido no(s) seguinte(s)\n{0}",
+            "NewChatsTitle": "Novas conversas"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Bate-papo iniciado: {0} por",
+                "EndDate": "Bate-papo concluído: {0} por"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Pre-chat summary",
+            "Toggle": {
+                "Opened": "Esconder",
+                "Closed": "Mostre mais"
+            },
+            "Fields": {
+                "Source": "fonte"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "{0} contatos similares encontrados",
+            "DuplicatesNotFound": "Nenhum contato semelhante encontrado",
+            "FindDuplication": "Procurar contatos semelhantes"
+        },
+        "Transfer": {
+            "ToOperator": "Representante",
+            "ToQueue": "Fila",
+            "TransferWindowCaption": "Transferir para",
+            "OperatorStatusTips": {
+                "Active": "ativo",
+                "Inactive": "Inativo",
+                "ChatsExceeded": "Bate-papo excedido"
+            },
+            "NoAvailableAgents": "Não há agentes disponíveis para transferência",
+            "NoAvailableQueues": "Não há filas disponíveis para transferência"
+        }
+    },
+    "InfoDialog": {
+        "OK": "Certo"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Sugestões de modelo",
+        "SuggestionHint": "Tente digitar uma palavra para começar a procurar",
+        "QuickSearchHint": "Digite // para procurar um modelo",
+        "TemplateSearchCaption": "Modelos de resposta"
+    },
+    "NotificationsDisabled": {
+        "textStart": "As notificações do navegador estão desativadas. Ative as notificações para receber novos alertas de mensagens. Leia mais sobre ",
+        "splitTextLink": {
+            "displayText": "Academia"
+        }
+    }
+}
