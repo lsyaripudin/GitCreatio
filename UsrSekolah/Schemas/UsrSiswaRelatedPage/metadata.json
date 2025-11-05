@@ -1,0 +1,28 @@
+{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "4dc0997e-e3e4-4ea0-851d-08055f0ad681",
+      "A2": "UsrSiswaRelatedPage",
+      "A5": "6f71e54c-1960-40c9-94f6-073fd67699ab",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2",
+      "B8": "0.0.0.0",
+      "AD1": "5842da8c-5658-4c4f-b114-2e6ffa854ccb",
+      "AD2": "EntitySchemaManager",
+      "AD3": "RelatedPage",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+        "Pages": [
+          {
+            "UId": "a76ddd48-7b9f-47ef-921a-c24ae66d29aa",
+            "PageSchemaUId": "990b6ff2-f9ff-4395-b506-00d9f521d174",
+            "IsDefault": true
+          }
+        ]
+      }
+    }
+  }
+}
